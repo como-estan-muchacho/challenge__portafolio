@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+        <h1 class="cabecera__titulo">Alura Latam</h1>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <img class="presentacion__foto" src="assets/presenta.png" alt="Foto de perfil">
+        <div class="presentacion__contenedor">
+            <h2 class="presentacion__titulo">Hola, mi nombre es DarleyYojanes Palacio y soy aprendiz de desarrollador de páginas web</h2>
+            <p class="presentacion__subtitulo">actualmente estoy participando del proyecto Oracle ONE en Alura Latam y estoy cursando mi educacion universitaria como ingeniero en sistemas en la universidad americana .</p>
+        
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">¡Hola! Soy Darley Yojanes Palacio Reyes, y atualmente soy técnico en instalación de internet con experiencia en la empresa Konectar Gold , atualmente estoy cursando mis estudios universitarios en la universidad americana en Ingeniería en sistemas,ademas de que a la par me estoy formando como desarrollador de paginas wed expecializado en front end en alura.</p>
+        <!-- Firma opcional -->
+    
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Skill</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/htlm.png" alt="HTML">
+                <p class="habilidades__nombre">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/java.png" alt="java">
+                <p class="habilidades__nombre">java</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Hobbies</h2>
+        <ul class="aficiones__lista">
+            
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/guitar_icon.png" alt="Tocar bajo">
+                <p class="aficiones__nombre">Tocar guitarra</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/headphones_icon.png" alt="Oír música">
+                <p class="aficiones__nombre">Oír música</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver series">
+                <p class="aficiones__nombre">Ver series</p>
+            </li>
+           
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/americana.png" alt="corporacion universitaria americana">
+                <div>
+                    <h3 class="formacion__nombre">ingenieria en sistemas</h3>
+                    <p class="formacion__detalle">actualmente - UAM</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                <div>
+                    <h3 class="formacion__nombre">curso de programacion G7</h3>
+                    <p class="formacion__detalle">actualmente - Alura</p>
+                </div>
+            </li>
+            
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+        <div class="proyectos__contenedor">
+            <img class="proyectos__icono" src="assets/encriptado.png" alt="pagina para encriptar texto">
+            <div class="proyectos__contenedor__contenido">
+                <h3 class="proyectos__nombre">encriptador de texto</h3>
+                <p class="proyectos__descripcion">pagina para encriptar texto!</p>
+                <a class="proyectos__contenedor__boton1"href="https://github.com/como-estan-muchacho/encriptador-de-texto.git">repositorio</a>
+                <a class="proyectos__contenedor__boton2" href="https://encriptador-de-texto-beta.vercel.app/">demo</a>
+            </div>
+        </div>
+        <div class="proyectos__contenedor">
+            <img class="proyectos__icono" src="assets/numero secrecto.png" alt="juego de adivinar un numero secrecto">
+            <div class="proyectos__contenedor__contenido">
+                <h3 class="proyectos__nombre">juego del numero secrecto</h3>
+                <p class="proyectos__descripcion">juego de adivinar el numero al azar secrecto!</p>
+                <a class="proyectos__contenedor__boton1"href="https://github.com/como-estan-muchacho/juego-numero-secrecto.git">repositorio</a>
+                <a class="proyectos__contenedor__boton2" href="https://juego-numero-secrecto.vercel.app/">demo</a>
+            </div>
+        </div>
+        <div class="proyectos__contenedor">
+            
+            <img class="proyectos__icono" src="assets/proyecto.png" alt="pagina para encriptar texto">
+            <div class="proyectos__contenedor__contenido">
+                <h3 class="proyectos__nombre">portafolio personal</h3>
+                <p class="proyectos__descripcion">pagina donde describo un poco de mi!</p>
+                <a class="proyectos__contenedor__boton1"href="https://github.com/como-estan-muchacho/portafolio.git">repositorio</a>
+                <a class="proyectos__contenedor__boton2" href="https://portafolio-ten-gold.vercel.app/">demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <h2 class="contacto__titulo">Contacto</h2>
+    <section class="contacto" id="contacto">
+       
+        <img class="contacto__imagen" src="assets/telefono.png" alt="imagen de un telefono">
+        <form class="contacto__formulario">
+            <input class="contacto__campo" type="text" placeholder="Nombre">
+            <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+            <button class="contacto__boton" type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer class="footer">
+
+    </footer>
+</body>
+    <script src="script.js"></script>
+</html>
